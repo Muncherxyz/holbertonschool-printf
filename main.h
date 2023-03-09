@@ -11,6 +11,7 @@
 
 
 int _printf(const char *format, ...);
+int cti_function(va_list ap, char c);
 int _putchar(char c);
 
 #endif 
