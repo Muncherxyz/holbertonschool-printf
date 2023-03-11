@@ -26,7 +26,7 @@ int _printf(const char *format, ...) {
        
         else if (format[i] == '%') {
             
-            char_count += cti_function(&args, format[i + 1]);
+            char_count += cti_function(args, format[i + 1]);
             i++;
         }
        
