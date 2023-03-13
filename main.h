@@ -8,6 +8,16 @@
 #include <stdarg.h>
 #include <unistd.h>
 
+
+
+/**
+ * struct format - a struct that holds va_list
+ * @let: character
+ * @func: pointer to a function
+ *
+ * Return: 0 success
+*/
+
 typedef struct format
 {
 	char *let;
