@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-* _printf - function that takes in a string [redacted]
-*
+* _printf - function that produces an output based on formatting.
+* @format: string that holds what will be printed
+* Return: NULL
 */
 int _printf(const char *format, ...) {
     va_list args;
@@ -43,7 +44,9 @@ int _printf(const char *format, ...) {
 
 /**
 * cti_function - conversion type identifier
-* 
+* @ap: va_list containing args
+* @c: char (format i + i)
+* Return: 2 (number of characters printed)
 */
 int cti_function(va_list ap, char c) {
     
