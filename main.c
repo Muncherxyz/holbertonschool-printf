@@ -1,13 +1,11 @@
 #include "main.h"
-/**
- *
- */
+#include <stdio.h>	
+
 int main(void)
 {
-  char ch = 'a';
-     
-  _putchar(ch);
+  int retVal;
+retVal = _printf("%s", NULL);
+printf("\n%d\n", retVal);
 
-   return(0);
-  
-    }
+return (0);
+}
