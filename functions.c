@@ -80,27 +80,6 @@ int print_int(va_list ap)
 	return (count);
 }
 /**
- * _pow_recursion - returns value of x raised
- * to the power of y
- * @x: int
- * @y: int for power
- * Return: value of x^y
-*/
-
-int _pow_recursion(int x, int y)
-{
-	if (y == 0)
-	{
-		return (1);
-	}
-	if (y < 0)
-	{
-		return (-1);
-	}
-	else
-		return (x * _pow_recursion(x, y - 1));
-}
-/**
  *
  *
  */
