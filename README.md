@@ -6,3 +6,7 @@
 ###### _putchar takes a single argument of type char and returns an int.
 ###### _printf.c mplementation of a basic printf function 
 ###### functions.c helper function that prints an unsigned integer
+
+# Authors
+**Kortlan**
+**Marquis**
