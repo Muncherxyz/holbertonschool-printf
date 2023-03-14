@@ -8,6 +8,6 @@
 ###### functions.c helper function that prints an unsigned integer
 
 # Authors
-**Kortlan**- Muncherxyz
+**Kortlan**- Muncherxy
 
 **Marquis**- Marquis4
