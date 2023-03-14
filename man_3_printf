@@ -1,0 +1,19 @@
+- NAME
+  _printf- formatted output conversion
+ - SYNOPSIS
+  int _printf(const char *format, ...);
+
+- DESCRIPTION
+  _printf takes a format string to print a formatted output to the standard
+
+The conversion specifiers are c, s, d, and i.
+    "c" will output formatted characters converted from integers
+
+    "s" will output a formatted string
+
+    "d" will output formatted integers
+
+    "i" will output integers
+    
+if _printf is successful, it returns the number of characters printed without the NULL byte.
+
